@@ -1,0 +1,16 @@
+
+Pobranie rekordow z pliku world_bank.json oraz dodanie ich do listy rekordow.
+Przypisanie obiektom z listy rekordow takich pol jak: _id, countryname, countryshortname, lendprojectcost
+
+Zadanie 1: 
+W których 10 regionach zostało zorganizowane najwięcej projektów? Ile per region?
+
+Na podsatwie listy rekordow stworzenie nowej listy zawierajacej liste unikalnych regionow.
+Kazdemu utworzonemu obiektowi nadajemy pole z liczba wykonanych projektow.
+Liczba wykonanych projektow zwieksza sie o +1 przy kazdym wystapieniu regionu w liscie rekordow.
+
+Zadanie 2: 
+W które 10 regionów zainwestowano najwięcej pieniędzy? Ile?
+
+Korzystajac juz z utworzonej listy unikatowych regionow, kazdemu regionowi nadajemy pole z kosztami projektu dla regionu.
+Koszta projektu dla regionu liczymy sumujac wartosc wszystkich projektow w danym regionie. 
